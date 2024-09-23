@@ -1,0 +1,11 @@
+nav {
+  background-image: url("/images/bg-sidebar-desktop.svg");
+  flex: 2;
+}
+
+@media (max-width: 1024px) {
+  nav {
+    background-image: url("/images/bg-sidebar-mobile.svg");
+    background-size: cover;
+  }
+}
